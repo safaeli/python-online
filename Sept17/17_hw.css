@@ -1,0 +1,11 @@
+p{
+    border: 2px solid;
+    width: 500px;
+    margin: 0 auto;
+}
+h1{
+    padding-left: 600px;
+}
+p:hover{
+    background-image: conic-gradient(darkblue, violet,maroon,lightgreen);
+}
