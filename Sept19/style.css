@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Form box */
+.form{
+    border: 5px solid darkblue;
+    width: 200px;
+    height: 280px;
+    margin: 10% auto;
+    padding: 20px; 
+    border-radius: 10px;
+    background-color: black;
+
+}
+.form>.info{
+    margin-bottom: 12px;
+}
+
+/*label*/
+.form>.info>label{
+    color:white;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*input*/
+.form>.info>input{
+    font-size: 15px;
+    color: seagreen;
+}
+.form>.info>button{
+    font-size: 20px;
+    color:black;
+}
+
+/*bg image*/
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/02/94/52/66/360_F_294526635_8Fc9IbBHWOC83JsiFNRNx5VivafEjiyi.jpg');
+    background-repeat: no-repeat;
+     background-size: cover;
+}
