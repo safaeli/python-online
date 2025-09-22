@@ -10,7 +10,7 @@
     margin: 10% auto;
     padding: 20px; 
     border-radius: 10px;
-    background-color: black;
+    background-image: linear-gradient(rgba(75, 69, 69, 0.998), darkgrey);
 
 }
 .form>.info{

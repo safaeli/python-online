@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Gochi+Hand&family=Kranky&family=MedievalSharp&family=Rubik+Glitch+Pop&family=Shadows+Into+Light&family=Tilt+Prism&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+p{
+    border: 3px solid;
+    width: 500px;
+    box-shadow: inset 20px -8px 16px 2px grey;
+}
+div {
+    border: 3px solid;
+    width: 500px;
+    box-shadow: 20px -8px 16px 2px;
+}
+.h1{
+  font-family: "Rubik Glitch Pop", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  color: rgba(68, 0, 255, 0.658);
+  border: 2px solid;
+  width: 200px;
+  outline: 3px double purple;
+  margin: 0 auto;
+
+}
+.h2{
+    font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.p1{
+     font-family: "Tilt Prism", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+.p2{
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.p3{
+font-family: "Kranky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.p4{
+font-family: "Estonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.p5{
+font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.p6{
+font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
