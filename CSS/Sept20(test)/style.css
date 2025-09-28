@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, grey,lightblue,rgba(128, 0, 128, 0.685),lightgreen);
+}
+.form{
+    border: 2px solid;
+    width: 350px;
+    padding: 10px;
+    margin: 250px auto;
+    /*margin-top: 250px;*/
+    border-radius: 30px;
+}
+
+.form>.info{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+.form>.info>label{
+    font-size: 20px;
+    color:blueviolet;
+}
+.form>.info>input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(42, 99, 165, 0.82);
+    width: 100%;
+
+}
+.form>.button-info{
+    text-align: center;
+}
+.button-info>button{
+    width:200px;
+    padding: 10px 0;
+
+}

@@ -1,0 +1,27 @@
+h1{
+    color: violet;
+    font-family: sans-serif;
+}
+.para{
+    font-size: x-large;
+    color: burlywood;
+}
+#random{
+    font-style: italic;
+    background-color: lightslategray;
+}
+#first{
+    border: 2px solid;
+}
+/*#first p{
+    background-color: aquamarine;
+}*/
+/*#first > p{
+    background-color: aquamarine;
+}*/
+/*#first + p{
+    background-color: aquamarine;
+}*/
+#first ~ p{
+    background-color: aquamarine;
+}

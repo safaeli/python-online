@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Estonia&family=Gochi+Hand&family=Kranky&family=MedievalSharp&family=Rubik+Glitch+Pop&family=Shadows+Into+Light&family=Tilt+Prism&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
 p{
     border: 3px solid;
-    width: 500px;
+    border-radius:50% 50% 45% 55% / 50% 50% 50% 50%  ;
+    width: 300px;
+    height: 300px;
+    padding: 10%;
     box-shadow: inset 20px -8px 16px 2px grey;
 }
 div {
@@ -59,7 +62,7 @@ font-family: "Gochi Hand", cursive;
 .p6{
 font-family: "Tourney", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(11, 11, 224, 0.744);
+    height: 50px;
+    position: relative;
+}    
+
+header section{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+}
+a{
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    font-size: x-large;
+}
+.p1::first-letter{
+    color: darkblue;
+    font-size: xx-large;
+
+}
+    
+div img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+
+.equip{
+    border: 2px solid;
+    width: 300px;
+    border-radius: 20px;
+    /* height: 400px; */
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.equip:hover{
+    box-shadow: 10px 5px gray;
+    transition: 2s;
+}
+
+.equip-img{
+    border: 2px solid rgb(0, 132, 255);
+     border-radius:20px 20px 10px 10px ;
+    height: 250px;
+    overflow: hidden;
+}
+
+.equip-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 2s;
+}
+
+.equip-img img:hover{
+    transform: scale(1.2,1.2);
+    transition: 2s;
+}
+
+.footer>button{
+    background: rgb(21, 74, 209);
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer>p{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.Equipments{
+    text-align: center;
+    background-color: lightblue;
+}
+
