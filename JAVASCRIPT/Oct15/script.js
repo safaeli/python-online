@@ -12,7 +12,7 @@
 // console.log(num)
 
 // Q2 (negative/positive number)
-// if(num >= 0){
+// if(num > 0){
 //     document.writeln("<h1>Its a positive number</h1")
 // }else{
 //     document.writeln("<h1>Its a negative number</h1")
