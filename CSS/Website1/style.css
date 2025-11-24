@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    align-self: center;
+}
+
+nav ul {
+    width: 600px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+.cart-count{
+    /* border: 2px solid; */
+    position: relative;
+    /* width: 50px; */
+    /* height: 40px; */
+}
+.cart-count span {
+    background: #17173ada;
+    color: white;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: -10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+nav ul li a {
+    font-family: 900;
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+}
+
+header .logo {
+    /* border: 2px solid; */
+    width: 250px;
+    height: 70px;
+
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.banner {
+    background: url(../images/slider-bg.jpg);
+    height: 90vh;
+    background-size: cover;
+    padding: 0 10%;
+    display: flex;
+}
+
+.banner .banner-box {
+    /* border: 2px solid; */
+    width: 530px;
+    height: 350px;
+    align-self: center;
+}
+
+.banner .banner-box h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.banner .banner-box p {
+    font-size: 17px;
+    word-spacing: 1.2;
+    margin-bottom: 25px;
+}
+
+.banner .banner-box a {
+    padding: 10px 20px;
+    border: 1px solid #f7444e;
+    text-decoration: none;
+    background: #f7444e;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.banner .banner-box a:hover {
+    background: transparent;
+    color: #000;
+}
+
+/* middle */
+.middle h1{
+    text-align: center;
+    margin-top: 65px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.middle div{
+    text-align: center;
+    padding: 80px;
+    justify-content: space-between;
+    display: flex;
+    gap: 25px;
+}
+
+.middle div div{
+    border: 2px solid;
+    height: 250px;
+    width: 380px;
+    border-radius: 9px;
+    background-color: #002c3e;
+    color: white;
+    padding: 50px 0px;
+}
+
+.box img{
+    margin-bottom: 4%;
+}
+
+.box h3{
+    margin-bottom: 4%;
+}
+
+
+.middle2 {
+    border: 2px solid red;
+    /* height: 80vh; */
+    object-position: top right ;
+    display:flex;
+    position: relative;
+}
+
+.middle2 .arrivals img{
+    width: 1260px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.middle2 .content{
+    position: absolute;
+    right: 100px;
+    top: 45%;
+}
+
+.middle2 .content h1{
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+
+.middle2 .content p{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.middle2 .content a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(231, 92, 76);
+    padding: 12px 35px;
+    font-size: 25px;
+}
+
+/* product-container */
+
+.product-container {
+    /* height: 70vh; */
+    /* border: 2px solid; */
+}
+
+.product-container .product-header {
+    /* border: 2px solid red; */
+    padding: 3% 0;
+}
+
+.product-container .product-header h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.product-container .product-header h1 span {
+    color: #f7444e;
+}
+
+.product-container .product-body {
+    /* border: 2px solid blue; */
+    /* height: 70vh; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    gap: 20px;
+
+}
+
+.product-body .pro-card {
+    /* border: 2px solid green; */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d4ced07a;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-body .pro-card img {
+    max-height: 160px;
+}
+
+.product-body .pro-card .details {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 18%;
+
+}
+
+.pro-card .shopping-cart {
+    /* border: 2px solid yellow; */
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background: rgba(153, 153, 255, 0.236);
+    backdrop-filter: blur(2px);
+    top: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.product-body .pro-card:hover .shopping-cart {
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+}
+
+.product-body .pro-card .shopping-cart a,.product-body .pro-card .shopping-cart button {
+    padding: 10px 20px;
+    background: #f7444e;
+    border: 1px solid;
+    margin: 10px;
+    width: 165px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.product-body .pro-card .shopping-cart a:hover,.product-body .pro-card .shopping-cart button:hover {
+    color: #fff;
+    background: transparent;
+}
+
+.product-container .product-footer {
+    padding: 3% 0;
+    text-align: center;
+}
+
+.product-container .product-footer a {
+    padding: 15px 50px;
+    background: #f7444e;
+    border: 1px solid;
+    margin: 10px;
+    width: 165px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+}

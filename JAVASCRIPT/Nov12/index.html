@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="open"> Open </button>
+    <button id="close"> Close </button>
+    <button id="move"> Move </button>
+    <button id="resize"> Resize </button>
+    <script>
+
+        // const screenInfo  = `
+        // <strong>Width:</strong> ${screen.width} px <br>
+        // <strong>Height:</strong> ${screen.height} px <br>
+        // <strong>Avalable Width:</strong> ${screen.availWidth} px <br>
+        // <strong>Available Height:</strong> ${screen.availHeight} px <br>
+        // <strong>Color:</strong> ${screen.colorDepth} bits <br>
+        // <strong>Pixel:</strong> ${screen.colorDepth} bits 
+        // `;
+        // document.writeln(screenInfo)
+
+        let awindow;
+        let open = document.querySelector("#open")
+        open.addEventListener("click", ()=>{
+            awindow = window.open("", "open", "width=500,height=500")
+             awindow.document.writeln("Hi there")
+
+        })
+
+
+        document.querySelector("#close").addEventListener
+        ("click", () => {
+            if(awindow){
+                awindow.close()
+            } else{
+                alert("You have to open a window first")
+            }
+        })
+
+        document.querySelector("#move").addEventListener
+        ("click", () => {
+            if(awindow){
+                awindow.moveTo(400,350)
+            } else{
+                alert("You have to open a window first")
+            }
+        })
+
+        document.querySelector("#resize").addEventListener
+        ("click", () => {
+            if(awindow){
+                awindow.resizeTo(300,350)
+            } else{
+                alert("You have to open a window first")
+            }
+        })
+
+    </script>
+</body>
+</html>

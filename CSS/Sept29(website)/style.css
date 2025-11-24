@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Sansation", sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* header */
@@ -139,16 +139,16 @@ header .centerbox{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
     font-size: 50px;
-    /* border-bottom: 4px solid; */
+    border-bottom: 4px solid;
     
 }
 
-.middle nav{
+.middle div{
     text-align: center;
     padding: 80px;
     justify-content: space-between;
     display: flex;
-  gap: 25px;
+    gap: 25px;
 }
 
 .middle div{
